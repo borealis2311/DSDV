@@ -118,7 +118,7 @@ function defineCharts(data) {
     .elasticY(true)
     .centerBar(true)
     .barPadding(5)
-    .xAxisLabel('My rating')
+    .xAxisLabel('Rating')
     .yAxisLabel('Count')
     .margins({top: 10, right: 20, bottom: 50, left: 50});
   ratingChart.xAxis().tickValues([0, 1, 2, 3, 4, 5]);
